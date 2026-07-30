@@ -26,3 +26,5 @@ You should be able to:
 - Select their color theme
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
+
+## [Live Site](https://shena9y.github.io/browser-extensions-manager-ui-main/)
