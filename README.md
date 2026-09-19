@@ -7,6 +7,8 @@ This is a solution to the **Frontend Mentor** "Browser Extensions Manager UI" ch
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Frontend Mentor](https://img.shields.io/badge/Frontend_Mentor-Challenge-3F54A3?style=flat&logo=frontendmentor&logoColor=white)
 
+🔗 **Live Demo:** [https://shena9y.github.io/browser-extensions-manager-ui-main/](https://shena9y.github.io/browser-extensions-manager-ui-main/)
+
 ## ✨ Features
 
 - 🗂️ **Extension cards** rendered dynamically from `data.json` (name, logo, description)
@@ -40,6 +42,8 @@ browser-extensions-manager-ui-main/
 ```
 
 ## 🚀 Getting Started
+
+**Try it live:** [https://shena9y.github.io/browser-extensions-manager-ui-main/](https://shena9y.github.io/browser-extensions-manager-ui-main/) — no installation needed!
 
 Because the app fetches `data.json`, serve it over HTTP (opening the file directly will be blocked by CORS):
 
