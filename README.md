@@ -1,30 +1,56 @@
-# Frontend Mentor - Browser extensions manager UI
+# 🧩 Browser Extensions Manager UI — Frontend Mentor Solution
 
-![Design preview for the Browser extensions manager UI coding challenge](./preview.jpg)
+This is a solution to the **Frontend Mentor** "Browser Extensions Manager UI" challenge. A clean dashboard UI for managing browser extensions, built with HTML, CSS and vanilla JavaScript. Extensions are loaded from a local `data.json` and rendered as cards with filtering (All / Active / Inactive), active-state toggles, remove actions, and a light/dark theme switcher.
 
-## Welcome! 👋
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Frontend Mentor](https://img.shields.io/badge/Frontend_Mentor-Challenge-3F54A3?style=flat&logo=frontendmentor&logoColor=white)
 
-Thanks for checking out this front-end coding challenge.
+## ✨ Features
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+- 🗂️ **Extension cards** rendered dynamically from `data.json` (name, logo, description)
+- 🔀 **Filtering tabs** — view All, Active, or Inactive extensions
+- 🎚️ **Toggle switches** to activate/deactivate each extension
+- 🗑️ **Remove button** to delete an extension from the list
+- 🌗 **Light / dark theme** switcher with sun/moon icons
+- 🎨 Self-hosted **Noto Sans** variable font
+- 📱 Responsive grid layout matching the provided desktop & mobile designs
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+## 🛠️ Tech Stack
 
-## The challenge
+- **HTML5**
+- **CSS3** — custom properties, responsive grid
+- **Vanilla JavaScript** — fetch-based data loading, filtering, toggles, theming (`main.js`)
+- **JSON** — local `data.json` as the data source
 
-The challenge is to build out this browser extension manager UI and get it looking as close to the design as possible.
+## 📂 Project Structure
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+```
+browser-extensions-manager-ui-main/
+├── index.html          # Dashboard markup
+├── style.css           # Styles incl. light/dark themes
+├── main.js             # Data loading, filters, toggles
+├── data.json           # Extensions data source
+├── assets/
+│   ├── fonts/          # Noto Sans (variable)
+│   └── images/         # Logos & theme icons (SVG)
+├── design/             # Challenge design references
+└── preview.jpg         # Challenge preview
+```
 
-We provide the data for the extensions in a local `data.json` file. So you can use that to add the data dynamically if you choose.
+## 🚀 Getting Started
 
-You should be able to:
+Because the app fetches `data.json`, serve it over HTTP (opening the file directly will be blocked by CORS):
 
-- Toggle extensions between active and inactive states
-- Filter active and inactive extensions
-- Remove extensions from the list
-- Select their color theme
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+```bash
+git clone https://github.com/shena9y/browser-extensions-manager-ui-main.git
+cd browser-extensions-manager-ui-main
+npx serve .
+```
 
-## [Live Site](https://shena9y.github.io/browser-extensions-manager-ui-main/)
+Then open the printed local URL in your browser.
+
+## 📝 License
+
+This project is licensed under the MIT License.
